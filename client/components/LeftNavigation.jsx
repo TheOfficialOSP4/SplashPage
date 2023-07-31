@@ -6,7 +6,7 @@ const LeftNavigation = () => {
     return (
         <div className="left-nav">
             <img className="logoImage" src={logo} alt="ShieldQL-Logo" />
-            <p className="shieldql">ShieldQL</p>
+            <p>ShieldQL</p>
         </div>
     )
 

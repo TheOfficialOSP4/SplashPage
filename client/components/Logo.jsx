@@ -1,6 +1,6 @@
 import React from "react";
-import logo from '../assets/shieldQL.png'
-import '../styles/logo.scss'
+import logo from '../assets/shieldQL.png';
+import '../styles/logo.scss';
 
 const Logo = () => {
     return (

@@ -4,6 +4,7 @@ import Navigation from './Navigation.jsx';
 import Shieldql from './Shieldql.jsx'
 import Redirect from './Redirect.jsx';
 import Team from './Team.jsx';
+import '../styles/main.scss';
 
 const Main = () =>{
     return (
