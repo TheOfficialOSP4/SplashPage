@@ -1,0 +1,10 @@
+@import 'app';
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    margin: 0 30px 0 0;
+    p{
+        padding: 10px;
+    }
+}

@@ -6,7 +6,13 @@ import Redirect from './Redirect.jsx';
 import Team from './Team.jsx';
 
 const Main = () =>{
-
+    return (
+        <div className='grid-container'>
+            <Navigation />
+            <Shieldql />
+        </div>
+        
+    )
 }
 
 

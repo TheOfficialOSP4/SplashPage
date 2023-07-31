@@ -4,8 +4,10 @@ import React from "react";
 import Command from "./Command.jsx";
 import Logo from "./Logo.jsx";
 
-const Shieldql = () =>{
-
+const Shieldql = () => {
+    <div className="shieldql">
+        <Logo />
+    </div>
 }
 
 export default Shieldql;

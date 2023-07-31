@@ -1,0 +1,7 @@
+@import 'app';
+
+.navigation{
+    grid-area: nav;
+    display: flex;
+    justify-content: space-between;
+}
