@@ -7,7 +7,7 @@ module.exports = {
 
     output: {
         path: path.resolve(__dirname, 'build'),
-        filename: bundle.js,
+        filename: "bundle.js",
     },
 
     plugins: [
@@ -20,9 +20,9 @@ module.exports = {
     devServer: {
         host: 'localhost',
         port: '8080',
-        proxy: {
-            '/api': 'http://localhost:3000',
-        },
+        // proxy: {
+        //     '/api': 'http://localhost:3000',
+        // },
         historyApiFallback: true,
         static: {
             directory: path.resolve(__dirname, 'build'),
@@ -48,7 +48,7 @@ module.exports = {
             },
         ]
     },
-    
+
     resolve: {
         extensions: ['.js', '.jsx'],
       },
