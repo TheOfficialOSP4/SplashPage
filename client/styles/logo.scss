@@ -1,12 +1,13 @@
 @import 'app';
 
 
-.left-nav{
+.middle-logo{
     display: flex;
     align-items: center;
-    margin: 0;
-    
     img{
-        width: 100px;
+        width: 350px;
+    }
+    p{
+        font-size: 40px;
     }
 }
