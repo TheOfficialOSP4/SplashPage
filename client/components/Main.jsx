@@ -6,6 +6,8 @@ import Redirect from './Redirect.jsx';
 import Team from './Team.jsx';
 import '../styles/main.scss';
 
+//Parent Componenet: App.jsx
+
 const Main = () =>{
     return (
         <div className='grid-container'>
