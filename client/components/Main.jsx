@@ -16,6 +16,7 @@ const Main = () => {
             <Shieldql />
             <Description />
             <Redirect />
+            <Team />
         </div>
 
     )
