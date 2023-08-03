@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 // MAKE SURE TO COMMENT PLS 
 import '../styles/team.scss';
 // Teammate
@@ -11,10 +11,11 @@ import siful from '../assets/siful.png';
 import Teammate from './Teammate.jsx';
 
 const Team = () => {
+
     const pictures = [joie, rodrigo, siful, simran, xinjin];
     const names = ['Joie Zhang', 'Rodrigo Samour Calderon', 'Siful Siddiki', 'Simran Kaur', 'Xin Jin Qiu'];
-    const githubs = ['', '', 'https://github.com/sifulsidd', '', 'https://github.com/xjqiu28'];
-    const linkedins = ['', '', 'https://www.linkedin.com/in/siful-siddiki/', '', 'https://www.linkedin.com/in/xinjinqiu/'];
+    const githubs = ['https://github.com/joie-zhang', 'https://github.com/rscalderon', 'https://github.com/sifulsidd', 'https://github.com/simk209', 'https://github.com/xjqiu28'];
+    const linkedins = ['https://www.linkedin.com/in/joie-zhang-4949a213a/', 'https://www.linkedin.com/in/rodrigosamourcalderon/', 'https://www.linkedin.com/in/siful-siddiki/', 'https://www.linkedin.com/in/simran-kaur-2684b0191/', 'https://www.linkedin.com/in/xinjinqiu/'];
 
     let profArray = []
 

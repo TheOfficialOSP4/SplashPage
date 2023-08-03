@@ -8,4 +8,22 @@
     p{
         padding: 10px;
     }
+    .docs {
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+    .team {
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+    .blog {
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
 }
