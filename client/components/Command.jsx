@@ -18,9 +18,13 @@ const Command = () => {
         return setCopied(true);
     }
 
+    setTimeout(()=>{
+        return setCopied(false)
+    }, 1500);
+
     return (
         <div className="clipboard">
-            <input type="text" value="@npm install shieldql" readOnly />
+            <input type="text" value="@npm install shieldql"readOnly/>
             {copied ? <button>Copied!</button> : <button onClick={handleClick}>Copy</button>}
         </div>
     )
