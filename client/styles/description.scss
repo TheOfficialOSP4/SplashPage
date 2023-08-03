@@ -1,0 +1,16 @@
+@import 'app';
+
+.description{
+    grid-area: desc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px dashed black;
+    width: 75%;
+    border-radius: 10px;
+
+    h1{
+        color: blue;
+    }
+}
