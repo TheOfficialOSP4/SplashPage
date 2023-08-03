@@ -6,9 +6,9 @@ import '../styles/rightNavigation.scss'
 const RightNavigation = () => {
     return(
         <div className="right-nav">
-            <p>Docs</p>
-            <p>Team</p>
-            <p>Blog</p>
+            <p className="docs">Docs</p>
+            <p className="team">Team</p>
+            <p className="blog">Blog</p>
         </div>
     )
 };

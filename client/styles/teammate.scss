@@ -1,0 +1,32 @@
+@import 'app';
+@import 'main';
+
+.team-information{
+    display: flex;
+    align-items: center;
+
+
+    .profile-pic{
+        width: 50px;
+        margin: 1rem;
+        border-radius: 5px;
+    }
+
+    .linkedin{
+        width: 30px;
+        margin: 0 5px 0 5px;
+        // height: 5%;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    .github{
+        width: 30px;
+        margin: 0 0 0 5px;
+        border-radius: 100px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

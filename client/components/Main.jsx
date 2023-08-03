@@ -10,12 +10,15 @@ import '../styles/main.scss';
 //Parent Componenet: App.jsx
 // contains all the components of our application
 const Main = () => {
+
+    
     return (
         <div className='grid-container'>
             <Navigation />
             <Shieldql />
             <Description />
             <Redirect />
+            <Team />
         </div>
 
     )
