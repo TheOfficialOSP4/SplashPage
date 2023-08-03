@@ -1,5 +1,5 @@
 import React from "react";
-// import '../styles/teammate.scss';
+import '../styles/teammate.scss';
 const Teammate = ({name, github, linkedin, picture}) => {
     const handleClickLinkedIn = (url)=>{
         window.open(url,'_blank')

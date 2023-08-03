@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 // MAKE SURE TO COMMENT PLS 
-// import '../styles/team.scss';
+import '../styles/team.scss';
 // Teammate
 
 import joie from '../assets/joie.png';
 import rodrigo from '../assets/rodrigo.png';
 import simran from '../assets/simran.png';
 import xinjin from '../assets/xinjin.png';
-import siful from '../assets/siful.jpeg';
+import siful from '../assets/siful.png';
 import Teammate from './Teammate.jsx';
 
 const Team = () => {
@@ -23,8 +23,8 @@ const Team = () => {
     }
 
     return (
-        <div>
-            <p> Meet the Team </p>
+        <div className='team'>
+            <h1> Meet the Team </h1>
             {profArray}
         </div>
     )
