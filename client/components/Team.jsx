@@ -20,11 +20,11 @@ const Team = () => {
     let profArray = []
 
     for (let i = 0; i < names.length; i++) {
-        profArray.push(<Teammate name={names[i]} github={githubs[i]} linkedin={linkedins[i]} picture={pictures[i]}/>)
+        profArray.push(<Teammate name={names[i]} github={githubs[i]} linkedin={linkedins[i]} picture={pictures[i]} />)
     }
 
     return (
-        <div className='team'>
+        <div id='team' className='team'>
             <h1> Meet the Team </h1>
             {profArray}
         </div>
