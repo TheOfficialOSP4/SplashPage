@@ -1,15 +1,18 @@
 import React from "react";
 import '../styles/teammate.scss';
 const Teammate = ({name, github, linkedin, picture}) => {
+
+    // if clicked takes us to user linkedin page
     const handleClickLinkedIn = (url)=>{
         window.open(url,'_blank')
     };
 
+    // if clicked takes us teammates github
     const handleClickGithub = (url)=>{
         window.open(url,'_blank')
     };
 
-    
+    // teammates information is all received from props of teams
     return (
         <div className="team-information">
             <img className="profile-pic" src={picture} />

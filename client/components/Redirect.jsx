@@ -5,7 +5,7 @@ const Redirect = () => {
     const openInNewTab = (url) => {
         window.open(url,'_blank')
     }
-
+    // onclick function to open a new tab to github, medium article, and npm
     return (
         <div className="redirect">
             <button onClick={()=>openInNewTab("https://github.com/oslabs-beta/ShieldQL/")}>
