@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import '../styles/command.scss';
 
+//Parent Component: Sheidlql.jsx
+
 const Command = () => {
 
     //useState default false, changes to true if copied successfully

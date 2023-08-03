@@ -2,6 +2,8 @@ import React from "react";
 import logo from '../assets/shieldQL.png';
 import '../styles/logo.scss';
 
+//Parent Component: Sheidlql.jsx
+
 const Logo = () => {
     return (
         <div className="middle-logo">

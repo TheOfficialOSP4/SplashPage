@@ -1,6 +1,8 @@
 import React from "react";
 import '../styles/rightNavigation.scss'
 
+//Parent Component: Navigation.jsx
+
 const RightNavigation = () => {
     return(
         <div className="right-nav">
