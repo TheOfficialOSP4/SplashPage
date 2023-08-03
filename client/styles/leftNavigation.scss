@@ -9,5 +9,15 @@
     
     img{
         width:  75px;
+        &:hover{
+            cursor: pointer;
+        }
     }
+    p{
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+    
 }
