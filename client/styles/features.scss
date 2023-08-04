@@ -1,0 +1,22 @@
+@import 'app';
+
+.features {
+    grid-area: ft;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border: 1px solid blue;
+    border-radius: 10px;
+
+    .feature-nav {
+        display: flex;
+        justify-content: space-around;
+        align-self: left;
+        p {
+            &:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+}

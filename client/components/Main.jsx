@@ -5,6 +5,7 @@ import Shieldql from './Shieldql.jsx'
 import Redirect from './Redirect.jsx';
 import Team from './Team.jsx';
 import Description from './Description.jsx';
+import Features from './Features.jsx';
 import '../styles/main.scss';
 
 //Parent Componenet: App.jsx
@@ -19,6 +20,7 @@ const Main = () => {
             <Description />
             <Redirect />
             <Team />
+            <Features />
         </div>
 
     )
