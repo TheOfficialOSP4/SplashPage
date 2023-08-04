@@ -1,9 +1,13 @@
 import Main from './Main.jsx';
 import React from 'react';
+import '../styles/app.scss';
 
-const App = () =>{
+const App = () => {
     return (
-        <Main />
+        <div>
+            <Main />
+        </div>
+
     )
 }
 

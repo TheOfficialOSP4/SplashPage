@@ -1,0 +1,29 @@
+@import 'app';
+@import 'main';
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    margin: 0 90px 0 0;
+    p{
+        padding: 10px;
+    }
+    .docs {
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+    .team {
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+    .blog {
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}

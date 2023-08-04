@@ -1,0 +1,16 @@
+@import 'app';
+@import 'main';
+
+.clipboard {
+    
+    margin-top: 0px;
+    margin-bottom: 18px;
+    
+    input {
+        padding: 5px;
+        margin-right: 5px; 
+    }
+    button {
+        padding: 5px;
+    }
+}
