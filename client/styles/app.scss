@@ -1,39 +1,17 @@
-$light-blue: #a8d5ff;
+$light-blue: paleturquoise;
 $sapphire: #0b1354;
 $denim: #165baa;
-$deep-lilac: #a155b9;
+// $dark-turquoise: rgb(118, 213, 203);
+$dark-turquoise: rgb(175, 212, 238);
+$denimtwo: #165baaab;
+$deep-lilac: #6e55b9;
 $brilliant-rose: #f765a3;
 
 body {
   font-size: 20px;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
-  color: $sapphire;
-  background-color: paleturquoise;
-  // background: radial-gradient(
-  //   circle,
-  //   $denim 25%,
-  //   $deep-lilac 50%,
-  //   $sapphire 60%
-  // );
-  // background: linear-gradient(
-  //   180deg,
-  //   rgba(247, 101, 163, 1) 0%,
-  //   rgba(22, 91, 170, 1) 40%,
-  //   rgba(11, 19, 84, 1) 81%
-  // );
-  // background: rgb(247, 101, 163);
-  // background: linear-gradient(
-  //   180deg,
-  //   rgba(247, 101, 163, 1) 4%,
-  //   rgba(22, 91, 170, 1) 15%,
-  //   rgba(11, 19, 84, 1) 54%
-  // );
-  // background: linear-gradient(
-  //   180deg,
-  //   rgba(161, 85, 185, 1) 25%,
-  //   rgba(22, 91, 170, 1) 50%,
-  //   rgba(11, 19, 84, 1) 75%
-  // );
+  font-family: 'Open Sans', 'Roboto', sans-serif;
+  color: rgb(229, 233, 244);
+  background-color: $sapphire;
 }
