@@ -29,10 +29,10 @@ const Team = () => {
     'https://github.com/xjqiu28',
   ];
   const linkedins = [
-    'https://www.linkedin.com/in/joie-zhang-4949a213a/',
+    'https://www.linkedin.com/in/joie-zhang/',
     'https://www.linkedin.com/in/rodrigosamourcalderon/',
     'https://www.linkedin.com/in/siful-siddiki/',
-    'https://www.linkedin.com/in/simran-kaur-2684b0191/',
+    'https://www.linkedin.com/in/simran-kaur-nyc/',
     'https://www.linkedin.com/in/xinjinqiu/',
   ];
 
