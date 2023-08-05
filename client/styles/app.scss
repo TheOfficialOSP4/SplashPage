@@ -1,6 +1,19 @@
+$light-blue: #a8d5ff;
+$sapphire: #0b1354;
+$denim: #165baa;
+$deep-lilac: #a155b9;
+
 body {
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(250, 234, 234);
+  background-color: $sapphire;
+  background: radial-gradient(
+    circle,
+    $denim 25%,
+    $deep-lilac 50%,
+    $sapphire 60%
+  );
 }

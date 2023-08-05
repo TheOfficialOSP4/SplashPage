@@ -1,16 +1,20 @@
 $light-blue: #a8d5ff;
+$sapphire: #0b1354;
+$denim: #165baa;
+$deep-lilac: #a155b9;
+$carnation-pink: #ffa4b6;
+$pale-pink: #f9d1d1;
 
-.grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px auto auto auto auto;
-    row-gap: 30px;
-    grid-template-areas: 
-    "nav nav nav nav nav"
-    ". logo logo logo ."
-    ". desc desc desc ."
-    ". btn btn btn ."
-    ". team team team ."
-    ;
-    position:relative;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px auto auto auto auto;
+  row-gap: 30px;
+  grid-template-areas:
+    'nav nav nav nav nav'
+    '. logo logo logo .'
+    '. desc desc desc .'
+    '. btn btn btn .'
+    '. team team team .';
+  position: relative;
 }

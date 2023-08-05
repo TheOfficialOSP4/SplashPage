@@ -3,6 +3,7 @@ import React, { useState, useRef } from 'react';
 import '../styles/team.scss';
 // Teammate
 
+// image files being imported
 import joie from '../assets/joie.png';
 import rodrigo from '../assets/rodrigo.png';
 import simran from '../assets/simran.png';
