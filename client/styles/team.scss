@@ -1,9 +1,13 @@
 @import 'app';
 @import 'main';
 
-.team {
+#team {
   grid-area: team;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.team {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
 }
