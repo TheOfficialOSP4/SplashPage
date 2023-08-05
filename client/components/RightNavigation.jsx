@@ -14,6 +14,7 @@ const RightNavigation = () => {
     const onClickTeam = () => {
         document.getElementById('team').scrollIntoView({ behavior: 'smooth' });
     }
+    
     return (
         <div className="right-nav">
             <p className="docs" onClick={()=> onClick("https://github.com/oslabs-beta/ShieldQL/")}>Docs</p>
