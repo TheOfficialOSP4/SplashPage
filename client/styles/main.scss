@@ -12,4 +12,18 @@
     '. btn btn btn .'
     '. team team team .';
   position: relative;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px auto auto auto auto;
+    row-gap: 30px;
+    grid-template-areas:
+        "nav nav nav nav nav"
+        ". logo logo logo ."
+        ". desc desc desc ."
+        ". ft ft ft ."
+        ". btn btn btn ."
+        ". team team team ."
+    ;
+    position: relative;
 }

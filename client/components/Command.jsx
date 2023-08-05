@@ -15,12 +15,15 @@ const Command = () => {
         // writes the text we initialized onto the clipboard
         await navigator.clipboard.writeText(text);
         //sets the copied value to true and makes the button change from copy -> copied!
+
+        setTimeout(()=>{
+            return setCopied(false)
+        }, 1500);
+
         return setCopied(true);
     }
 
-    setTimeout(()=>{
-        return setCopied(false)
-    }, 1500);
+
 
     return (
         <div className="clipboard">
