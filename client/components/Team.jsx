@@ -16,7 +16,7 @@ const Team = () => {
   const pictures = [joie, rodrigo, siful, simran, xinjin];
   const names = [
     'Joie Zhang',
-    'Rodrigo Samour Calderon',
+    'Rodrigo S. Calderon',
     'Siful Siddiki',
     'Simran Kaur',
     'Xin Jin Qiu',
