@@ -1,23 +1,20 @@
 @import 'app';
 @import 'main';
 
+.left-nav {
+  display: flex;
+  align-items: center;
+  margin: 100px;
 
-.left-nav{
-    display: flex;
-    align-items: center;
-    margin: 100px;
-    
-    img{
-        width:  75px;
-        &:hover{
-            cursor: pointer;
-        }
+  img {
+    &:hover {
+      cursor: pointer;
     }
-    p{
-        &:hover{
-            cursor: pointer;
-            text-decoration: underline;
-        }
+  }
+  p {
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
     }
-    
+  }
 }
