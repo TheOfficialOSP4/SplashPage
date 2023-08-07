@@ -1,6 +1,6 @@
 import React from "react";
 import logo from '../assets/shieldQL.png';
-import '../styles/LeftNavigation.scss';
+import '../styles/leftNavigation.scss';
 
 //Parent Component: Navigation.jsx
 // contains logo image as well as the ShieldQL name on the top left of screen
