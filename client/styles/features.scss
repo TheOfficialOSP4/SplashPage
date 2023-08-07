@@ -1,22 +1,25 @@
 @import 'app';
 
 .features {
-    grid-area: ft;
+  grid-area: ft;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border: 1px solid $sapphire;
+  border-radius: 10px;
+  background-color: $denimtwo;
+  .feature-nav {
     display: flex;
-    flex-direction: column;
-    align-items: left;
-    border: 1px solid blue;
-    border-radius: 10px;
-
-    .feature-nav {
-        display: flex;
-        justify-content: space-around;
-        align-self: left;
-        p {
-            &:hover {
-                text-decoration: underline;
-                cursor: pointer;
-            }
-        }
+    justify-content: space-around;
+    align-self: left;
+    p {
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
     }
+    .Underline {
+      text-decoration: underline;
+    }
+  }
 }
