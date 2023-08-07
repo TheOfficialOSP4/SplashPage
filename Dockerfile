@@ -21,19 +21,16 @@
 # EXPOSE 8080
 
 # Use a lightweight image that can serve static content
+# COPY package*.json ./
+# RUN npm run build
+# Install a lightweight HTTP server to serve the frontend
+# RUN npm install -g serve
+# Serve the production build on port 8080
+
+# On node 18.16, create a working directory with all of the repo's files, run npm install, build, and serve
 FROM node:18.16
 WORKDIR /usr/src/app
 COPY . .
 RUN npm install && npm run build && npm install -g serve
 EXPOSE 8080
 CMD ["serve", "-s", "build", "-p", "8080"]
-
-# COPY package*.json ./
-
-# RUN npm run build
-
-# Install a lightweight HTTP server to serve the frontend
-# RUN npm install -g serve
-
-
-# Serve the production build on port 8080
