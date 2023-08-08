@@ -4,12 +4,21 @@
 .shieldql {
   grid-area: logo;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   margin: 0;
   border: 1px solid black;
   border-radius: 0.5rem;
   border-width: 50%;
   background-color: $denimtwo;
+
+  .shieldql-left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-right {
+    width: 300px;
+  }
 }
