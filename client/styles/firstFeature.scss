@@ -2,14 +2,18 @@
 
 .first-feature {
   display: flex;
-  justify-content: space-between;
-
+  align-items: center;
+  flex-direction: column;
   li {
-    list-style: upper-roman;
+    list-style: none;
   }
 
   img {
-    width: 50px;
-    margin-right: 20px;
+    height: 175px;
+    width: 250px;
+    margin: 10px;
+
   }
+
 }
+

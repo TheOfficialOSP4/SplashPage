@@ -8,10 +8,12 @@
   border: 1px solid $sapphire;
   border-radius: 10px;
   background-color: $denimtwo;
+
   .feature-nav {
     display: flex;
     justify-content: space-around;
     align-self: left;
+
     p {
       &:hover {
         text-decoration: underline;
@@ -19,6 +21,7 @@
         cursor: pointer;
       }
     }
+
     .Underline {
       text-decoration: underline;
       text-decoration-color: pink;
