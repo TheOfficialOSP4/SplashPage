@@ -15,7 +15,7 @@ const ThirdFeature = () => {
         <li>this is test for 3b</li> */}
       </ul>
       <img src='https://img.freepik.com/premium-vector/disinfection-sanitization-cleaning-covid-service_88272-4604.jpg?w=2000' />
-      <img src='https://www.indusface.com/wp-content/uploads/2016/11/How-does-SQLi-attack-works.png'/>
+      <img src='https://transform.octanecdn.com/fitLogo/950x600/https://octanecdn.com/mrcleancarwashnew/mrcleancarwashnew_672515650.png' />
     </div>
   );
 };

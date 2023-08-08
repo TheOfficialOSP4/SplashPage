@@ -14,7 +14,7 @@ const SecondFeature = () => {
         <li>this is test for 2b</li> */}
       </ul>
       <img src='https://www.okta.com/sites/default/files/styles/1640w_scaled/public/media/image/2020-10/Authentication_vs_Authorization.png?itok=uBFRCfww' />
-      <img src='https://www.cisco.com/c/dam/assets/swa/img/anchor-info/what-is-user-authentication-628x353.png' />
+      <img src='https://www.educative.io/cdn-cgi/image/f=auto,fit=contain,w=600/api/page/6045894932692992/image/download/6526134821847040' />
     </div>
   );
 };

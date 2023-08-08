@@ -4,6 +4,7 @@ import '../styles/firstFeature.scss';
 const FirstFeature = () => {
   return (
     <div className='first-feature'>
+      <div className='list'>
       <ul>
         <li>
           ShieldQL helps you implement user authentication in your GraphQL APIs,
@@ -13,9 +14,12 @@ const FirstFeature = () => {
         {/* <li>this is test for 1a</li>
         <li>this is test for 1b</li> */}
       </ul>
+      </div>
+      <div className='images'>
       {/* <img src='https://upload.wikimedia.org/wikipedia/commons/8/8b/Eo_circle_green_white_checkmark.svg' /> */}
-      <img src='https://wp-punk.com/wp-content/uploads/2021/10/sanitizing.jpg' />
-      <img src='https://www.educative.io/cdn-cgi/image/f=auto,fit=contain,w=600/api/page/6045894932692992/image/download/6526134821847040' />
+      <img src='https://www.indusface.com/wp-content/uploads/2016/11/How-does-SQLi-attack-works.png'/>
+      <img src='https://www.cisco.com/c/dam/assets/swa/img/anchor-info/what-is-user-authentication-628x353.png' />
+      </div>
     </div>
   );
 };

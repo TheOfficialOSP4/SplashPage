@@ -16,13 +16,13 @@ const Features = () => {
           onClick={() => setCurrent(1)}
           className={current === 1 ? 'Underline' : 'Ignore'}
         >
-          Authorization
+          Authentication
         </p>
         <p
           onClick={() => setCurrent(2)}
           className={current === 2 ? 'Underline' : 'Ignore'}
         >
-          Authentication
+          Authorization
         </p>
         <p
           onClick={() => setCurrent(3)}
