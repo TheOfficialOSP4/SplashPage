@@ -15,11 +15,13 @@
     p {
       &:hover {
         text-decoration: underline;
+        text-decoration-color: pink;
         cursor: pointer;
       }
     }
     .Underline {
       text-decoration: underline;
+      text-decoration-color: pink;
     }
   }
 }
