@@ -12,6 +12,7 @@ const Shieldql = () => {
         <div className="shieldql">
             <Logo />
             <Command />
+            <img src="https://www.apollographql.com/blog/static/graphql-query-79196ebc9ef66116c562969e686a6cf5.png"/>
         </div>
     )
 }

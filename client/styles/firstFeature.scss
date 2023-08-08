@@ -3,12 +3,13 @@
 .first-feature {
   display: flex;
   justify-content: space-between;
-
+  align-items: row;
   li {
-    list-style: upper-roman;
+    list-style: none;
   }
 
   img {
+    display: flex;
     width: 50px;
     margin-right: 20px;
   }

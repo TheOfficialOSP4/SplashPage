@@ -10,10 +10,11 @@ const SecondFeature = () => {
           types and fields in your GraphQL schema. This way, you can control
           what data each user can access based on their role and permissions.
         </li>
-        <li>this is test for 2a</li>
-        <li>this is test for 2b</li>
+        {/* <li>this is test for 2a</li>
+        <li>this is test for 2b</li> */}
       </ul>
-      {/* <img src='https://upload.wikimedia.org/wikipedia/commons/8/8b/Eo_circle_green_white_checkmark.svg' /> */}
+      <img src='https://www.okta.com/sites/default/files/styles/1640w_scaled/public/media/image/2020-10/Authentication_vs_Authorization.png?itok=uBFRCfww' />
+      <img src='https://www.cisco.com/c/dam/assets/swa/img/anchor-info/what-is-user-authentication-628x353.png' />
     </div>
   );
 };
