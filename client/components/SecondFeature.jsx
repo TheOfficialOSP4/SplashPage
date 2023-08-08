@@ -10,8 +10,8 @@ const SecondFeature = () => {
           types and fields in your GraphQL schema. This way, you can control
           what data each user can access based on their role and permissions.
         </li>
-        {/* <li>this is test for 2a</li>
-        <li>this is test for 2b</li> */}
+        {/* <li>this is test for 3a</li>
+        <li>this is test for 3b</li> */}
       </ul>
       <img src='https://www.okta.com/sites/default/files/styles/1640w_scaled/public/media/image/2020-10/Authentication_vs_Authorization.png?itok=uBFRCfww' />
       <img src='https://www.educative.io/cdn-cgi/image/f=auto,fit=contain,w=600/api/page/6045894932692992/image/download/6526134821847040' />

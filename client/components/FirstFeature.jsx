@@ -11,8 +11,8 @@ const FirstFeature = () => {
           ensuring that only authenticated users can access certain parts of
           your API.
         </li>
-        {/* <li>this is test for 1a</li>
-        <li>this is test for 1b</li> */}
+        {/* <li>this is test for 3a</li>
+        <li>this is test for 3b</li> */}
       </ul>
       </div>
       <div className='images'>

@@ -1,12 +1,13 @@
 {
   "name": "splashpage",
   "version": "1.0.0",
-  "description": "This will be where we keep our splash page",
+  "description": "shieldQL splash page",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open --hot --progress --color",
-    "build": "webpack"
+    "build": "webpack",
+    "serve": "serve -s build -p 8080"
   },
   "keywords": [],
   "author": "",
