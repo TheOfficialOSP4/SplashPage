@@ -2,14 +2,20 @@
 
 .third-feature {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 
   li {
     list-style: none;
   }
 
   img {
-    width: 300px;
-    margin-right: 20px;
+    height: 175px;
+    width: 250px;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: row;
   }
 }
