@@ -33,4 +33,5 @@ WORKDIR /usr/src/app
 COPY . .
 RUN npm install && npm run build && npm install -g serve
 EXPOSE 8080
-CMD ["serve", "-s", "build", "-p", "8080"]
+CMD ["npm", "run", "serve"]
+# CMD ["serve", "-s", "build", "-p", "8080"]

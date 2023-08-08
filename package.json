@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open --hot --progress --color",
-    "build": "webpack"
+    "build": "webpack",
+    "serve": "serve -s build -p 8080"
   },
   "keywords": [],
   "author": "",
