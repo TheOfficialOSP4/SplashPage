@@ -18,7 +18,7 @@ const RightNavigation = () => {
         <div className="right-nav">
             <p className="docs" onClick={()=> onClick("https://github.com/oslabs-beta/ShieldQL/")}>Docs</p>
             <p className="team" onClick={() => onClickTeam()}>Team</p>
-            <p className="blog" onClick={()=> onClick("https://github.com/oslabs-beta/ShieldQL/")}>Blog</p>
+            <p className="blog" onClick={()=> onClick("https://medium.com/@simran00kk/shieldql-a-graphql-security-solution-6ad17f93f6fa")}>Blog</p>
         </div>
     )
 };
