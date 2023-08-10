@@ -11,7 +11,7 @@ const Redirect = () => {
             <button onClick={()=>openInNewTab("https://github.com/oslabs-beta/ShieldQL/")}>
                 Github
             </button>
-            <button onClick={()=>openInNewTab("https://github.com/oslabs-beta/ShieldQL/")}>
+            <button onClick={()=>openInNewTab("https://medium.com/@simran00kk/shieldql-a-graphql-security-solution-6ad17f93f6fa")}>
                 Medium
             </button >
             <button onClick={()=>openInNewTab("https://www.npmjs.com/package/shieldql")}>
