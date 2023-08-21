@@ -1,15 +1,19 @@
 @import 'app';
 
-.first-feature{
-    display: flex;
-    justify-content: space-between;
+.first-feature {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  li {
+    list-style: none;
+  }
 
-    li{
-        list-style:upper-roman;
-    }
+  img {
+    height: 175px;
+    width: 250px;
+    margin: 10px;
 
-    img{
-        width: 300px;
-        margin-right: 20px;
-    }
+  }
+
 }
+

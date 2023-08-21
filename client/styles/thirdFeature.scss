@@ -1,15 +1,17 @@
 @import 'app';
 
-.third-feature{
-    display: flex;
-    justify-content: space-between;
+.third-feature {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 
-    li{
-        list-style:upper-roman;
-    }
+  li {
+    list-style: none;
+  }
 
-    img{
-        width: 300px;
-        margin-right: 20px;
-    }
+  img {
+    height: 175px;
+    width: 250px;
+    margin: 10px;
+  }
 }

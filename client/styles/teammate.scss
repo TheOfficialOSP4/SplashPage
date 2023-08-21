@@ -1,32 +1,44 @@
 @import 'app';
 @import 'main';
 
-.team-information{
-    display: flex;
-    align-items: center;
+.team-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  //   background-color: red;
 
+  .profile-pic {
+    width: 75px;
+    // margin: 1rem;
+    // border-radius: 5px;
+  }
+  .NameSocial {
+    justify-content: column;
+    align-content: center;
+    // background-color: beige;
 
-    .profile-pic{
-        width: 50px;
-        margin: 1rem;
-        border-radius: 5px;
+    .name {
+      font-size: 14px;
+      text-align: center;
+      //   background-color: black;
+    }
+    .linkedin {
+      width: 30px;
+      margin: 0 5px 0 5px;
+      // height: 5%;
+      &:hover {
+        cursor: pointer;
+      }
     }
 
-    .linkedin{
-        width: 30px;
-        margin: 0 5px 0 5px;
-        // height: 5%;
-        &:hover{
-            cursor: pointer;
-        }
+    .github {
+      width: 30px;
+      margin: 0 0 0 5px;
+      border-radius: 100px;
+      &:hover {
+        cursor: pointer;
+      }
     }
-
-    .github{
-        width: 30px;
-        margin: 0 0 0 5px;
-        border-radius: 100px;
-        &:hover{
-            cursor: pointer;
-        }
-    }
+  }
 }

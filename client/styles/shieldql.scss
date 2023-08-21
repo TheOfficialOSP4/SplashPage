@@ -2,15 +2,14 @@
 @import 'main';
 
 .shieldql {
-    grid-area: logo;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    border: 1px solid black;
-    border-radius: 0.5rem;
-    border-width: 50%;
-    background-color: $light-blue;
+  grid-area: logo;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  border-width: 50%;
+  background-color: $denimtwo;
 }
-
