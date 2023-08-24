@@ -10,20 +10,12 @@ module.exports = {
     filename: 'bundle.js',
   },
 
-<<<<<<< HEAD
-    plugins: [
-        new HTMLWebpackPlugin({
-            template: '/index.html',
-        }),
-    ],
-=======
   plugins: [
     new HTMLWebpackPlugin({
       // filename: 'index.html',
       template: '/index.html',
     }),
   ],
->>>>>>> origin
 
   //   devServer: {
   //     host: 'localhost',
