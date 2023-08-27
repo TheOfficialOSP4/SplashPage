@@ -1,15 +1,16 @@
 @import 'app';
 
-.second-feature{
-    display: flex;
-    justify-content: space-between;
+.second-feature {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  li {
+    list-style: none;
+  }
 
-    li{
-        list-style:upper-roman;
-    }
-
-    img{
-        width: 300px;
-        margin-right: 20px;
-    }
+  img {
+    height: 175px;
+    width: 250px;
+    margin: 10px;
+  }
 }

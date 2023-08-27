@@ -1,11 +1,12 @@
 @import 'app';
 @import 'main';
 
-.navigation{
-    grid-area: nav;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 300px;
-    padding: 0 24px;
+.navigation {
+  grid-area: nav;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $denim;
+  padding: 0 24px;
+  //   position: top;
 }

@@ -1,12 +1,13 @@
 {
   "name": "splashpage",
   "version": "1.0.0",
-  "description": "This will be where we keep our splash page",
+  "description": "shieldQL splash page",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open --hot --progress --color",
-    "build": "webpack"
+    "build": "webpack",
+    "serve": "serve -s build -p 8080"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +25,7 @@
     "path": "^0.12.7",
     "sass": "^1.63.6",
     "sass-loader": "^13.3.2",
+    "tailwindcss": "^3.3.3",
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
