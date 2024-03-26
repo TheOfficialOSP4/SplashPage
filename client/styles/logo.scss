@@ -3,11 +3,12 @@
 
 .middle-logo {
   display: flex;
-  align-items: center;
-  img {
-    width: 100px;
-  }
-  p {
-    font-size: 40px;
-  }
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+}
+
+.middle-logo img {
+  max-width: 90%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: .5rem;
 }

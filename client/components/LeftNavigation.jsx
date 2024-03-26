@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/shieldQL.png';
+import logo from '../assets/DarkModeIcon.png';
 import '../styles/leftNavigation.scss';
 
 //Parent Component: Navigation.jsx
@@ -20,13 +20,13 @@ const LeftNavigation = () => {
         src={logo}
         alt='ShieldQL-Logo'
       />
-      <p
+      <div
         onClick={() => {
           window.location.reload();
         }}
       >
-        ShieldQL
-      </p>
+      <p>ShieldQL</p>
+      </div>
     </div>
   );
 };
