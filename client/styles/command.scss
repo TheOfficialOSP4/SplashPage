@@ -5,11 +5,21 @@
   margin-top: 0px;
   margin-bottom: 18px;
 
+
   input {
-    padding: 5px;
+    padding:5px;
     margin-right: 5px;
+    font-family: monospace; 
   }
   button {
     padding: 5px;
+    background-color: rgb(211, 216, 245); /* Less opaque background */
+    border: 1px solid rgba(5, 19, 137, 0.2); /* Add a border for contrast */
+    font-family: monospace; 
+
+    &:hover {
+      background-color: rgb(148, 166, 245); 
+      cursor: pointer;
+    }
   }
 }
