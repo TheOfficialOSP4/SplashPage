@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/secondFeature.scss';
-
+import login from '../assets/json.png'
+import secure_server from '../assets/secure_server.png'
 const SecondFeature = () => {
   return (
     <div className='second-feature'>
@@ -16,8 +17,8 @@ const SecondFeature = () => {
         </ul>
       </div>
       <div>
-        <img src='https://www.okta.com/sites/default/files/styles/1640w_scaled/public/media/image/2020-10/Authentication_vs_Authorization.png?itok=uBFRCfww' />
-        <img src='https://www.educative.io/cdn-cgi/image/f=auto,fit=contain,w=600/api/page/6045894932692992/image/download/6526134821847040' />
+        <img src={secure_server} />
+        <img src={login} />
       </div>
 
     </div>

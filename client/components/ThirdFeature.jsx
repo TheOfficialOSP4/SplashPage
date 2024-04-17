@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/thirdFeature.scss';
-
+import alert from '../assets/alert.png'
+import safe from '../assets/safe.png'
+import check_code from '../assets/check_code.png'
 const ThirdFeature = () => {
   return (
     <div className='third-feature'>
@@ -17,8 +19,8 @@ const ThirdFeature = () => {
         </ul>
       </div>
       <div className='images'>
-        <img src='https://img.freepik.com/premium-vector/disinfection-sanitization-cleaning-covid-service_88272-4604.jpg?w=2000' />
-        <img src='https://transform.octanecdn.com/fitLogo/950x600/https://octanecdn.com/mrcleancarwashnew/mrcleancarwashnew_672515650.png' />
+        <img src={check_code} />
+        <img src={safe} />
       </div>
     </div>
   );

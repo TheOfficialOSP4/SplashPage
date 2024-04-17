@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/firstFeature.scss';
-
+import login from '../assets/login.png';
+import auth from '../assets/auth.png'
 const FirstFeature = () => {
   return (
     <div className='first-feature'>
@@ -14,8 +15,8 @@ const FirstFeature = () => {
       </ul>
       </div>
       <div className='img-div'>
-        <img src='https://www.indusface.com/wp-content/uploads/2016/11/How-does-SQLi-attack-works.png'/>
-        <img src='https://www.cisco.com/c/dam/assets/swa/img/anchor-info/what-is-user-authentication-628x353.png' />
+        <img src={login}/>
+        <img src={auth} />
       </div>
     </div>
   );
