@@ -14,7 +14,7 @@ const App = () => {
       <Navigation />
       <Shieldql />
       <div className='description'>
-        <p>Secure your graphQL APIs with ShieldQL.</p>
+        <p>Secure your GraphQL APIs with ShieldQL.</p>
       </div>
       <Redirect />
       <Team />
