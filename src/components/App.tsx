@@ -2,19 +2,20 @@ import Navigation from './Navigation.tsx';
 import Shieldql from './Shieldql.tsx';
 import Redirect from './Redirect.tsx';
 import Team from './Team.tsx';
-import Description from './Description.tsx';
 import Features from './Features.tsx';
 
-import '../styles/main.scss';
-
 import '../styles/app.scss';
+import '../styles/main.scss';
+import '../styles/description.scss';
 
 const App = () => {
   return (
     <div className='grid-container'>
       <Navigation />
       <Shieldql />
-      <Description />
+      <div className='description'>
+        <p>Secure your graphQL APIs with ShieldQL.</p>
+      </div>
       <Redirect />
       <Team />
       <Features />
