@@ -11,8 +11,6 @@ const SecondFeature = () => {
             types and fields in your GraphQL schema. This way, you can control
             what data each user can access based on their role and permissions.
           </li>
-          {/* <li>this is test for 3a</li>
-        <li>this is test for 3b</li> */}
         </ul>
       </div>
       <div>
