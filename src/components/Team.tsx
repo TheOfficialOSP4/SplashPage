@@ -1,15 +1,11 @@
-import React, { useState, useRef } from 'react';
-// MAKE SURE TO COMMENT PLS
 import '../styles/team.scss';
-// Teammate
 
-// image files being imported
 import joie from '../assets/joie.png';
 import rodrigo from '../assets/rodrigo.png';
 import simran from '../assets/simran.png';
 import xinjin from '../assets/xinjin.png';
 import siful from '../assets/siful.png';
-import Teammate from './Teammate.jsx';
+import Teammate from './Teammate';
 
 const Team = () => {
   // created an array for pictures paths, names of each individual, githubs and linkedins
@@ -37,7 +33,7 @@ const Team = () => {
   ];
 
   // create an array that will contain a list of teammates
-  let profArray = [];
+  const profArray = [];
 
   // loop over everything and pass in the information as props to teammate component
   for (let i = 0; i < names.length; i++) {
@@ -54,7 +50,7 @@ const Team = () => {
   return (
     <div id='team'>
       <h1> Meet the Team </h1>
-      <div class='team'>{profArray}</div>
+      <div className='team'>{profArray}</div>
     </div>
   );
 };
