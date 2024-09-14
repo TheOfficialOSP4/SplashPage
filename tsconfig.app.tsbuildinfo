@@ -4,7 +4,6 @@
     "./src/assets/index.d.ts",
     "./src/components/app.tsx",
     "./src/components/command.tsx",
-    "./src/components/description.tsx",
     "./src/components/features.tsx",
     "./src/components/firstfeature.tsx",
     "./src/components/leftnavigation.tsx",
