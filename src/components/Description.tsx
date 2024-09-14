@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/description.scss';
 
 //Parent Component: Mains.jsx
