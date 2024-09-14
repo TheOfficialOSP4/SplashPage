@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import FirstFeature from './FirstFeature.jsx';
-import SecondFeature from './SecondFeature.jsx';
-import ThirdFeature from './ThirdFeature.jsx';
+import { useState } from 'react';
+import FirstFeature from './FirstFeature';
+import SecondFeature from './SecondFeature';
+import ThirdFeature from './ThirdFeature';
 import '../styles/features.scss';
 
 const Features = () => {
