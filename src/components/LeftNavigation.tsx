@@ -1,4 +1,3 @@
-import React from 'react';
 import logo from '../assets/shieldQL.png';
 import '../styles/leftNavigation.scss';
 
@@ -13,20 +12,12 @@ const LeftNavigation = () => {
   return (
     <div className='left-nav'>
       <img
-        onClick={() => {
-          window.location.reload();
-        }}
+        onClick={() => window.location.reload()}
         className='logoImage'
         src={logo}
         alt='ShieldQL-Logo'
       />
-      <p
-        onClick={() => {
-          window.location.reload();
-        }}
-      >
-        ShieldQL
-      </p>
+      <p onClick={() => window.location.reload()}>ShieldQL</p>
     </div>
   );
 };
