@@ -26,19 +26,19 @@ const Team = () => {
       name: 'Siful Siddiki',
       github: 'https://github.com/sifulsidd',
       linkedin: 'https://www.linkedin.com/in/siful-siddiki/',
-      picture: simran,
+      picture: siful,
     },
     {
       name: 'Simran Kaur',
       github: 'https://github.com/simk209',
       linkedin: 'https://www.linkedin.com/in/simran-kaur-nyc/',
-      picture: xinjin,
+      picture: simran,
     },
     {
       name: 'Xin Jin Qiu',
       github: 'https://github.com/xjqiu28',
       linkedin: 'https://www.linkedin.com/in/xinjinqiu/',
-      picture: siful,
+      picture: xinjin,
     },
   ].map(({ name, github, linkedin, picture }) => (
     <Teammate
